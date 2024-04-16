@@ -57,12 +57,12 @@ except:
 if not os.path.isdir('database'):
     os.mkdir('database')
 
-API_ID = "22256614"
-API_HASH = "4f9f53e287de541cf0ed81e12a68fa3b"
-admin = 5934218120
+API_ID = "10122221"
+API_HASH = "0599f028e8b0e5ac86dc36cbe32d87d8"
+admin = 881535564
 
 # Replace with your bot token
-token = "6641455664:AAHHF1s-rgVsppxo2Rtpw-1VHanD5F5gntk"
+token = "7010851198:AAEZnQqsTpuBoeK68d9SUWrvtpQbSMH_gPs"
 client = TelegramClient('ses', API_ID, API_HASH)
 client.start()
 bot = client
